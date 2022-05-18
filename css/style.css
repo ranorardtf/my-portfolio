@@ -316,7 +316,8 @@ button {
   padding-left: 30%;
 }
 #price-table .price-table-box p {
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 40px;
 }
 #price-table .price-table-box .table .number {
   font-weight: 700;
@@ -334,10 +335,19 @@ button {
   top: -18px;
   position: relative;
   font-weight: 400;
-  font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.1px;
   color: #AFAFAF;
+}
+#price-table .price-table-box.active-box .table .month p {
+  top: -18px;
+  position: relative;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #AFAFAF;
+  font-size: 16px;
+  line-height: 40px;
 }
 #price-table .price-table-btn {
   padding-left: 20px;
@@ -425,7 +435,7 @@ footer .logo-list .logo-item {
 }
 footer p {
   font-size: 16px;
-  line-height: 11px;
+  line-height: 40px;
 }
 footer h4 {
   padding-bottom: 20px;
@@ -636,6 +646,10 @@ footer .last-f {
     height: 1540px;
     margin-top: 150px;
     text-align: center;
+  }
+  #price-table .price-table-box.active-box .table .month p {
+    font-size: 16px;
+    line-height: 40px;
   }
 
   /* clients */
